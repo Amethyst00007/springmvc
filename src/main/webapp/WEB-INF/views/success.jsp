@@ -10,9 +10,13 @@
 <title>Success</title>
 </head>
 <body>
-<h1>Welcome, ${username }</h1>
-<h1>Your email is: ${email }</h1>
-<h1>Your password is ${password },Try to secure it!</h1>
+<h1>${Header }</h1>
+<p>${Desc }</p>
+<h1 style="color:pink">${msg }</h1>
+<hr>
+<h1>Welcome, ${user.username }</h1>
+<h1>Your email is: ${user.email }</h1>
+<h1>Your password is ${user.password }, Try to secure it!</h1>
 
 </body>
 </html>
